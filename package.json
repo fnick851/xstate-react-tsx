@@ -1,0 +1,39 @@
+{
+  "name": "xstate-react",
+  "version": "1.0.0",
+  "description": "play with xstate with react",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf ./dist/ && parcel build ./src/index.html"
+  },
+  "keywords": [],
+  "author": "Noah",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.9.15",
+    "@types/react-dom": "^16.9.4",
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "@xstate/react": "^0.8.1",
+    "autoprefixer": "^9.7.3",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "rimraf": "^3.0.0",
+    "tailwindcss": "^1.1.4",
+    "typescript": "^3.7.3",
+    "xstate": "^4.7.2"
+  }
+}
